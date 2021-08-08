@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tab_presentation">
+        <item>Hôpital Aristide Le Dantec</item>
+        <item>Services médicaux et spécialités médicales </item>
+        <item>Services de chirurgie et spécialités chirurgicales </item>
+        <item>Services de laboratoires, d’Imagerie médicale et de Pharmacie </item>
+    </string-array>
+
+    <string-array name="tab_details">
+        <item>Établissement public de santé et centre de formation pour le personnel médical et paramédical. Capacité de mille lits avec un effectif d’environ mille agents.
+30, Av Pasteur, Dakar
+Tél. : (221) 33 889 38 00
+</item>
+        <item>Médecine interne,
+            Néphrologie, Endoscopie,
+            Pédiatrie, Dermatologie,
+            Cardiologie</item>
+        <item>Clinique chirurgicale, Chirurgie infantile, Orthopédie, Urologie, Cancérologie, Odontologie, Stomatologie, Ophtalmologie, Anesthésie-Réanimation, Clinique gynécologique et obstétricale</item>
+        <item>laboratoire de biochimie, Laboratoire de biologie,Laboratoire de bactériologie-virologie, Laboratoire de cytologie, Laboratoire de parasitologie, laboratoire d’anatomie pathologie, Service d’imagerie médicale, Pharmacie Centrale</item>
+    </string-array>
+
+    <string-array name="tab_help">
+        <item> Fonctionnement </item>
+        <item>Création de compte</item>
+        <item>S’authentifier</item>
+        <item>Création de rendez-vous </item>
+        <item>Consultation</item>
+        <item>Afficher les consultation </item>
+    </string-array>
+
+    <string-array name="tab_detail_help">
+        <item>l’appli permet de faire la gestion d’un hospitalier gérer les rendez-vous faire les consultations et afficher les consultations </item>
+        <item>pour utiliser l’App il faut créer un compte avec un login et un mot de passe   </item>
+        <item>Pour s’authentifier on entre le login et le mot de passe définie </item>
+        <item>Pour créer un rendez-vous on va dans le menu et clique sur appointment et on remplit le formulaire et clique sur enregistrer </item>
+        <item>: pour faire une consultation on clique sur consultation dans le menu et remplit le formulaire</item>
+        <item>Pour afficher les consultation on clique sur ViewConsultation dans la menu et  </item>
+    </string-array>
+</resources>

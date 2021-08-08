@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:text="@string/consultation"
+        android:textSize="@dimen/dim_title"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/txtFirstName"
+        android:hint="@string/first_name"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtLastName"
+        android:hint="@string/last_name"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtAge"
+        android:hint="@string/age"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtSymptom"
+        android:hint="@string/symptom"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtWeight"
+        android:hint="@string/weight"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtTemperature"
+        android:hint="@string/temperature"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtPressure"
+        android:hint="@string/pressure"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtLogin"
+        android:hint="@string/login"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnConsultation"
+        android:layout_margin="@dimen/dim_top"
+        android:layout_marginTop="@dimen/dim_top"
+        android:text="@string/record"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+</LinearLayout>
